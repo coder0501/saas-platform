@@ -1,0 +1,24 @@
+.dashboard {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+
+}
+
+.dashboard h1{
+  display: f;
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+.filters {
+  margin: 20px 0;
+}
+select {
+  padding: 5px;
+  font-size: 16px;
+}
+

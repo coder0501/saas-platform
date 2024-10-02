@@ -1,0 +1,80 @@
+
+.dashboard  {
+    max-width: 1140px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.dashboard h1{
+    text-align: center;
+    margin: 0;
+    
+    /* line-height: 50px; */
+}
+
+.orders-table{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.orders-table-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.order-details  {
+    margin-top: 50px;
+}
+
+.sortByDate{
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+/* Login css */
+
+.auth-page {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.page-form button{
+    text-align: center;
+}
+
+.form-btn{
+    text-align: center;
+    margin-top: 10px;
+    /* border: 1px solid lightseagreen;     */
+}
+
+.form-btn h3{
+    margin: 0;
+}
+
+.form-btn button{
+    width: 100%;
+    border: 1px solid rgb(73, 73, 225);
+}
+
+ .label-input   h3 {
+    margin: 0;
+ }  
+
+ .label-input   input {
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+}
