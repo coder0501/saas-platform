@@ -1,4 +1,4 @@
-# Project Title
+# SaaS Platform with Shopify Integration
 
 ## Description
 This project is a web application that includes user authentication, integrates with Shopify data, and uses Socket.IO for real-time features. The backend is built with Node.js and Express, while the frontend utilizes React. 
@@ -19,24 +19,24 @@ Before cloning the repository, make sure you have Node.js and npm installed on y
 
 Navigate to the project directory
 cd <project-directory>
+
 Install Node modules for the backend
-
-
 cd backend
 npm install
-Install Node modules for the client
 
+Install Node modules for the client
 cd ../client
 npm install
 Running the Application
-Start the backend server
 
+Start the backend server 
 cd backend
 npm start
-Start the frontend application
 
-cd ../client
+Start the frontend application
+cd client
 npm run dev
+
 Environment Variables
 Create a .env file in the backend directory with the following variables:
 
